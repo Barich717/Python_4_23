@@ -90,7 +90,7 @@ def print_result(cities):
     print(f"{'Наименование':<15}{'Год':<8}{'Население':<15}{'Страна'}")
     print('-' * 50)
     for c in cities:
-        print(f"{c['name']: < 15}{c['year']: < 8}{c['population']: < 15}{c['country']}")
+        print(f"{c['name']:<15}{c['year']:<8}{c['population']:<15}{c['country']}")
 
 def main():
     cities = load_records()
